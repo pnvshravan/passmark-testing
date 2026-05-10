@@ -1,0 +1,210 @@
+{
+  "config": {
+    "configFile": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/playwright.config.ts",
+    "rootDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T10-52-21-689Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T10-52-21-689Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T10-52-21-689Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report/report-2026-05-10T10-52-21-689Z",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results-2026-05-10T10-52-21-689Z.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "listado-basic-function.spec.ts",
+      "file": "listado-basic-function.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Homepage loading",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 80000,
+              "annotations": [
+                {
+                  "type": "AI Summary",
+                  "description": "The screenshot shows a light-colored background consistent with light mode, and the accessibility snapshot explicitly identifies a button with the label 'Switch to dark mode' [ref=e31]."
+                },
+                {
+                  "type": "AI Summary",
+                  "description": "The assertion describes a dynamic behavior (a shake animation) that occurs upon an action (trying to add an empty task). Based on the static screenshot and accessibility snapshot provided, there is no evidence of an animation occurring or a state indicating a failed submission attempt. As a static snapshot cannot verify a temporal animation without multiple frames or specific state indicators, the assertion cannot be confirmed as passed."
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 56484,
+                  "error": {
+                    "message": "Error: The assertion describes a dynamic behavior (a shake animation) that occurs upon an action (trying to add an empty task). Based on the static screenshot and accessibility snapshot provided, there is no evidence of an animation occurring or a state indicating a failed submission attempt. As a static snapshot cannot verify a temporal animation without multiple frames or specific state indicators, the assertion cannot be confirmed as passed.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: The assertion describes a dynamic behavior (a shake animation) that occurs upon an action (trying to add an empty task). Based on the static screenshot and accessibility snapshot provided, there is no evidence of an animation occurring or a state indicating a failed submission attempt. As a static snapshot cannot verify a temporal animation without multiple frames or specific state indicators, the assertion cannot be confirmed as passed.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at assert (/home/pnvshravan/Program files/vibe-coding/passmark-testing/node_modules/passmark/dist/assertion.js:286:44)\n    at runSteps (/home/pnvshravan/Program files/vibe-coding/passmark-testing/node_modules/passmark/dist/index.js:475:31)\n    at /home/pnvshravan/Program files/vibe-coding/passmark-testing/tests/listado-basic-function.spec.ts:9:5",
+                    "location": {
+                      "file": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests/listado-basic-function.spec.ts",
+                      "column": 5,
+                      "line": 9
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  7 |\u001b[39m test(\u001b[32m\"Homepage loading\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\n \u001b[90m  8 |\u001b[39m     test\u001b[33m.\u001b[39msetTimeout(\u001b[35m80\u001b[39m_000)\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m runSteps({\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m         page\u001b[33m,\u001b[39m\n \u001b[90m 11 |\u001b[39m         userFlow\u001b[33m:\u001b[39m \u001b[32m\"Check the homepage for basic functionality\"\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 12 |\u001b[39m         steps\u001b[33m:\u001b[39m[\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests/listado-basic-function.spec.ts",
+                        "column": 5,
+                        "line": 9
+                      },
+                      "message": "Error: The assertion describes a dynamic behavior (a shake animation) that occurs upon an action (trying to add an empty task). Based on the static screenshot and accessibility snapshot provided, there is no evidence of an animation occurring or a state indicating a failed submission attempt. As a static snapshot cannot verify a temporal animation without multiple frames or specific state indicators, the assertion cannot be confirmed as passed.\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m  7 |\u001b[39m test(\u001b[32m\"Homepage loading\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({page}) \u001b[33m=>\u001b[39m {\n \u001b[90m  8 |\u001b[39m     test\u001b[33m.\u001b[39msetTimeout(\u001b[35m80\u001b[39m_000)\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m runSteps({\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m         page\u001b[33m,\u001b[39m\n \u001b[90m 11 |\u001b[39m         userFlow\u001b[33m:\u001b[39m \u001b[32m\"Check the homepage for basic functionality\"\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 12 |\u001b[39m         steps\u001b[33m:\u001b[39m[\u001b[0m\n\u001b[2m    at assert (/home/pnvshravan/Program files/vibe-coding/passmark-testing/node_modules/passmark/dist/assertion.js:286:44)\u001b[22m\n\u001b[2m    at runSteps (/home/pnvshravan/Program files/vibe-coding/passmark-testing/node_modules/passmark/dist/index.js:475:31)\u001b[22m\n\u001b[2m    at /home/pnvshravan/Program files/vibe-coding/passmark-testing/tests/listado-basic-function.spec.ts:9:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "buffer": "WzE2OjIyOjI2LjAxM10gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzM5NjQ2KTogG1szNm1TdGFydGluZyBzdGVwLWJ5LXN0ZXAgZXhlY3V0aW9uIG9mIDQgc3RlcHMuG1szOW0K"
+                    },
+                    {
+                      "buffer": "WzE2OjIyOjU5LjgzNF0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzM5NjQ2KTogG1szNm1SdW5uaW5nIGFzc2VydGlvbjogVGhlIHRoZW1lIGNoYW5nZXMgdG8gbGlnaHQgbW9kZSwgYW5kIHNlZSBpZiB0aGUgdG9nZ2xlIGlzIGxhYmVsZWQgYXMgU3dpdGNoIHRvIGRhcmsgbW9kZRtbMzltCg=="
+                    },
+                    {
+                      "buffer": "WzE2OjIzOjA3LjQ4MF0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzM5NjQ2KTogG1szNm1SdW5uaW5nIGFzc2VydGlvbjogdGhlIGlucHV0IGZpZWxkIHdpbGwgbWFrZSBhIGFuaW1hdGlvbiBzaW1pbGFyIHRvIGEgc2hha2Ugb24gZW1wdHkgdGFzaywgd2hlbiB0cmllZCB0byBhZGQgaXQbWzM5bQo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-10T10:52:24.180Z",
+                  "annotations": [
+                    {
+                      "type": "AI Summary",
+                      "description": "The screenshot shows a light-colored background consistent with light mode, and the accessibility snapshot explicitly identifies a button with the label 'Switch to dark mode' [ref=e31]."
+                    },
+                    {
+                      "type": "AI Summary",
+                      "description": "The assertion describes a dynamic behavior (a shake animation) that occurs upon an action (trying to add an empty task). Based on the static screenshot and accessibility snapshot provided, there is no evidence of an animation occurring or a state indicating a failed submission attempt. As a static snapshot cannot verify a temporal animation without multiple frames or specific state indicators, the assertion cannot be confirmed as passed."
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T10-52-24-132Z/listado-basic-function-Homepage-loading-chromium/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests/listado-basic-function.spec.ts",
+                    "column": 5,
+                    "line": 9
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "429cf25f18bcca30e3e5-6bc2d9247119871ae786",
+          "file": "listado-basic-function.spec.ts",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-10T10:52:21.714Z",
+    "duration": 60106.619000000006,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

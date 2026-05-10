@@ -1,0 +1,180 @@
+{
+  "config": {
+    "configFile": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/playwright.config.ts",
+    "rootDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T15-29-26-465Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T15-29-26-465Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T15-29-26-465Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report/report-2026-05-10T15-29-26-465Z",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results-2026-05-10T15-29-26-465Z.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "listado-basic-function.spec.ts",
+      "file": "listado-basic-function.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Basic functionalites",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 80000,
+              "annotations": [
+                {
+                  "type": "AI Summary",
+                  "description": "The screenshot shows a light-colored background consistent with light mode, and the accessibility snapshot explicitly identifies a button with the label 'Switch to dark mode' [ref=e31]."
+                },
+                {
+                  "type": "AI Summary",
+                  "description": "The screenshot shows the 'Completed' tab visually highlighted with a white background and orange text compared to the other tabs. The accessibility snapshot confirms this state by marking the 'Completed' button as [active]."
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 47951,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzIwOjU5OjI4LjI0MF0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzY3NjcpOiAbWzM2bVN0YXJ0aW5nIHN0ZXAtYnktc3RlcCBleGVjdXRpb24gb2YgNCBzdGVwcy4bWzM5bQo="
+                    },
+                    {
+                      "buffer": "WzIxOjAwOjAxLjU2MV0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzY3NjcpOiAbWzM2bVJ1bm5pbmcgYXNzZXJ0aW9uOiBUaGUgdGhlbWUgY2hhbmdlcyB0byBsaWdodCBtb2RlLCBhbmQgc2VlIGlmIHRoZSB0b2dnbGUgaXMgbGFiZWxlZCBhcyBTd2l0Y2ggdG8gZGFyayBtb2RlG1szOW0K"
+                    },
+                    {
+                      "buffer": "WzIxOjAwOjA5LjAxMF0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzY3NjcpOiAbWzM2bVJ1bm5pbmcgYXNzZXJ0aW9uOiBFYWNoIHRhYiBpcyBoaWdobGlnaGVkIGJhc2VkIG9uIHRoZSBjbGljaxtbMzltCg=="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-10T15:29:27.432Z",
+                  "annotations": [
+                    {
+                      "type": "AI Summary",
+                      "description": "The screenshot shows a light-colored background consistent with light mode, and the accessibility snapshot explicitly identifies a button with the label 'Switch to dark mode' [ref=e31]."
+                    },
+                    {
+                      "type": "AI Summary",
+                      "description": "The screenshot shows the 'Completed' tab visually highlighted with a white background and orange text compared to the other tabs. The accessibility snapshot confirms this state by marking the 'Completed' button as [active]."
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "429cf25f18bcca30e3e5-280407f35f3e50c7af74",
+          "file": "listado-basic-function.spec.ts",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-10T15:29:26.477Z",
+    "duration": 49405.638000000006,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

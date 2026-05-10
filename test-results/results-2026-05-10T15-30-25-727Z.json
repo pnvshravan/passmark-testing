@@ -1,0 +1,282 @@
+{
+  "config": {
+    "configFile": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/playwright.config.ts",
+    "rootDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T15-30-25-727Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T15-30-25-727Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/test-results/run-2026-05-10T15-30-25-727Z",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/pnvshravan/Program files/vibe-coding/passmark-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report/report-2026-05-10T15-30-25-727Z",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results-2026-05-10T15-30-25-727Z.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "listado-add-list.spec.ts",
+      "file": "listado-add-list.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Adding a new list item and verifying filter states",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "AI Summary",
+                  "description": "The screenshot and accessibility snapshot both confirm that the 'All' filter is selected. Within the task list, there is a list item containing the text 'drink water' with a checkbox positioned to its left."
+                },
+                {
+                  "type": "AI Summary",
+                  "description": "The screenshot clearly shows the text '1 task left' at the bottom of the interface, and the accessibility snapshot confirms this with a generic element containing the text '1 task left' within the contentinfo region."
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 31872,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzIxOjAwOjI4LjI1Ml0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzczNTgpOiAbWzM2bVN0YXJ0aW5nIHN0ZXAtYnktc3RlcCBleGVjdXRpb24gb2YgMiBzdGVwcy4bWzM5bQo="
+                    },
+                    {
+                      "buffer": "WzIxOjAwOjQ2LjgxMF0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzczNTgpOiAbWzM2bVJ1bm5pbmcgYXNzZXJ0aW9uOiB0aGUgbGlzdCBpdGVtIHdpdGggdGV4dCBhcyBkcmluayB3YXRlciBhcHBlYXJzIHdpdGggYSBjaGVja2JveCBvbiBpdHMgbGVmdCBpbiBBbGwgZmlsdGVyG1szOW0K"
+                    },
+                    {
+                      "buffer": "WzIxOjAwOjU0LjAyM10gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzczNTgpOiAbWzM2bVJ1bm5pbmcgYXNzZXJ0aW9uOiBUaGUgdGFza3MgbGVmdCBjb3VudGVyIHNob3dzIDEbWzM5bQo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-10T15:30:27.005Z",
+                  "annotations": [
+                    {
+                      "type": "AI Summary",
+                      "description": "The screenshot and accessibility snapshot both confirm that the 'All' filter is selected. Within the task list, there is a list item containing the text 'drink water' with a checkbox positioned to its left."
+                    },
+                    {
+                      "type": "AI Summary",
+                      "description": "The screenshot clearly shows the text '1 task left' at the bottom of the interface, and the accessibility snapshot confirms this with a generic element containing the text '1 task left' within the contentinfo region."
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4f8055cb7dde10b5da48-1e5de03d35c309f30766",
+          "file": "listado-add-list.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Verify task in Active filter",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "AI Summary",
+                  "description": "The screenshot and accessibility snapshot both confirm that the 'Active' filter is currently selected and the task 'drink water' is visible in the task list."
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 31117,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzIxOjAwOjI4LjIwNl0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzczNTcpOiAbWzM2bVN0YXJ0aW5nIHN0ZXAtYnktc3RlcCBleGVjdXRpb24gb2YgMyBzdGVwcy4bWzM5bQo="
+                    },
+                    {
+                      "buffer": "WzIxOjAwOjUyLjY2OV0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzczNTcpOiAbWzM2bVJ1bm5pbmcgYXNzZXJ0aW9uOiB0aGUgdGFzayAnZHJpbmsgd2F0ZXInIGlzIGRpc3BsYXllZCBpbiB0aGUgQWN0aXZlIGZpbHRlchtbMzltCg=="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-10T15:30:26.994Z",
+                  "annotations": [
+                    {
+                      "type": "AI Summary",
+                      "description": "The screenshot and accessibility snapshot both confirm that the 'Active' filter is currently selected and the task 'drink water' is visible in the task list."
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4f8055cb7dde10b5da48-6161561c2f9b52e6f81a",
+          "file": "listado-add-list.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "Verify Completed filter is empty",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "AI Summary",
+                  "description": "The screenshot and accessibility snapshot both confirm that the 'Completed' filter is active and the main content area displays an empty state message: 'Nothing completed yet. Check off some tasks to see them here.'"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 30688,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzIxOjAwOjI4LjI1OV0gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzczNjQpOiAbWzM2bVN0YXJ0aW5nIHN0ZXAtYnktc3RlcCBleGVjdXRpb24gb2YgMyBzdGVwcy4bWzM5bQo="
+                    },
+                    {
+                      "buffer": "WzIxOjAwOjUxLjk3N10gG1szMm1JTkZPG1szOW0gKHBhc3NtYXJrLWFpLzczNjQpOiAbWzM2bVJ1bm5pbmcgYXNzZXJ0aW9uOiB0aGUgQ29tcGxldGVkIGZpbHRlciBkaXNwbGF5cyBhbiBlbXB0eSBzdGF0ZSBtZXNzYWdlG1szOW0K"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-10T15:30:27.054Z",
+                  "annotations": [
+                    {
+                      "type": "AI Summary",
+                      "description": "The screenshot and accessibility snapshot both confirm that the 'Completed' filter is active and the main content area displays an empty state message: 'Nothing completed yet. Check off some tasks to see them here.'"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4f8055cb7dde10b5da48-7a82caf5af4c52064dae",
+          "file": "listado-add-list.spec.ts",
+          "line": 42,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-10T15:30:25.741Z",
+    "duration": 33818.741,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
