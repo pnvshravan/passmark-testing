@@ -1,10 +1,10 @@
-# passmark-testing
+# Testing a basic to-do-list app with passmark
 
 ## Testcases results
 
 ### Reports
 
-*Sucessfull tests*
+***Sucessfull tests***
 
 1. [Testcase-1](/tests/listado-home.spec.ts)
 
@@ -23,10 +23,14 @@
 - Command to run the test report: `npx playwright show-report playwright-report/report-2026-05-10T15-31-34-487Z`
 
 
-*Failed tests*
+***Some Failed tests***
 
-1. `npx playwright show-report playwright-report/report-2026-05-10T10-46-12-673Z`
+*Commands to run the test report:*
 
-2. `npx playwright show-report playwright-report/report-2026-05-10T10-52-21-689Z`
+1. Command: `npx playwright show-report playwright-report/report-2026-05-10T10-46-12-673Z`.
 
-3. `npx playwright show-report playwright-report/report-2026-05-10T13-47-00-672Z` -- timeout should be more than 80,000 for more no. of tasks
+2. Command: `npx playwright show-report playwright-report/report-2026-05-10T10-52-21-689Z`
+
+3. Command: `npx playwright show-report playwright-report/report-2026-05-10T13-47-00-672Z` -- timeout should be more than 80,000 for more no. of tasks
+
+---
